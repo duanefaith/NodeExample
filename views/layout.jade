@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title= title
+
+    // stylesheets
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap-theme.min.css')
+
+    // less
+    link(rel='stylesheet/less', href='/less/index.less')
+
+
+    // javascripts
+    script(language='javascript', src='//cdn.bootcss.com/jquery/1.11.3/jquery.min.js')
+    script(language='javascript', src='/bootstrap/js/bootstrap.min.js')
+    script(language='javascript', src='/javascripts/less.min.js')
+    script(language='javascript', src='/javascripts/index.js')
+
+  body
+    block content
